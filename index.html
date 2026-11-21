@@ -13,24 +13,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- TYTUŁ KARTY PRZEGLĄDARKI: wpisz między <title> a </title> -->
     <title>Michał, Miły Pan od Finansów</title>
     <link rel="icon" type="image/png" href="avatar.png">
 
-    <!-- OPIS STRONY: treść idzie do content="", a name zostaje "description" -->
-    <meta name="description" content="Michał, Miły Pan od Finansów #kredyty mieszkaniowe #ubezpieczenia życia i zdrowia #finansowanie biznesu #prywatna #opieka #zdrowotna #pewna #emerytura">
+    <meta name="description" content="Michał, Miły Pan od Finansów 👉kredyty mieszkaniowe 👉ubezpieczenia życia i zdrowia 👉finansowanie biznesu 👉prywatna opieka zdrowotna 👉pewna emerytura">
 
-    <!-- CANONICAL: konto GitHub to "BezObaw", a repozytorium tej strony nazywa się
-         "MilyPanOdFinansow" — stąd adres:
-         https://bezobaw.github.io/MilyPanOdFinansow/
-         Uwaga: na stronach siostrzanych podmień część "/MilyPanOdFinansow/" na nazwę
-         ICH repozytorium (np. /ZdrowieBezKolejek/) — canonical jest zawsze per strona! -->
+    <!-- CANONICAL: konto GitHub "BezObaw", repozytorium "MilyPanOdFinansow" -->
     <link rel="canonical" href="https://bezobaw.github.io/MilyPanOdFinansow/">
 
-    <!-- Autor -->
     <meta name="author" content="Michał">
 
-    <!-- Kolory paska interfejsu przeglądarki (jasny/ciemny motyw) -->
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
 
@@ -55,6 +47,21 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
+
+    <style>
+      /* Nagłówki sekcji — spójne z układem LittleLink */
+      .section-title {
+        font-size: .95rem;
+        font-weight: 800;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        opacity: .65;
+        margin: 2.2rem 0 .9rem;
+      }
+      .section-title:first-of-type { margin-top: 1.4rem; }
+      /* Tekst sekcji „Zacznij tutaj / O mnie" */
+      .intro-text { line-height: 1.65; margin: .8rem 0 1.4rem; text-align: left; }
+    </style>
   </head>
 
 <body>
@@ -63,36 +70,38 @@
         <div class="column">
           <main>
 
-            <!-- AWATAR: nie wpisuj tu ścieżki z dysku!
-                 Wgraj swoje zdjęcie do repo jako avatar.png (Add file → Upload files),
-                 a jeśli masz wersję 2x większą — jako avatar@2x.png. Ta linia zostaje bez zmian.
-                 Zaokrąglenie: avatar--rounded (koło) / avatar--soft (lekko) / avatar--none (kwadrat) -->
+            <!-- AWATAR: wgraj zdjęcie do repo jako avatar.png. Ta linia zostaje bez zmian. -->
             <img class="avatar avatar--rounded" src="avatar.png" alt="Michał, Miły Pan od Finansów" width="128" height="128" fetchpriority="high">
 
             <!-- Imię / marka -->
             <h1>Michał, Miły Pan od Finansów</h1>
 
-            <!-- Krótki opis — podmień na własną frazę -->
-            <p>👉 kredyty mieszkaniowe 👉 ubezpieczenia życia i zdrowia 👉 finansowanie biznesu 👉 prywatna opieka zdrowotna 👉 pewna emerytura</p>
+            <!-- Krótki opis -->
+            <p>#kredyty mieszkaniowe #ubezpieczenia życia i zdrowia #finansowanie biznesu #prywatna opieka zdrowotna #pewna emerytura</p>
 
-            <!-- TWOJE PRZYCISKI -->
-            <nav class="button-stack" aria-label="Linki">
+            <!-- ============================================================
+                 SEKCJA 1 — ZACZNIJ TUTAJ / O MNIE
+                 Tekst roboczy na bazie profilu Linktree — podmień na własną wersję.
+                 ============================================================ -->
+            <h2 class="section-title">Zacznij tutaj</h2>
+            <p class="intro-text">
+              Cześć, jestem Michał — pomagam rozumieć finanse bez żargonu i porównuję oferty,
+                  żebyś wybierał świadomie. Ubezpieczenia życia i zdrowia, kredyty mieszkaniowe,
+                  finansowanie biznesu, prywatna opieka zdrowotna i emerytura. Zacznij od sekcji
+                  „Produkty” albo od razu <a href="https://calendar.proton.me/u/0/bookings#4IOkkPKWQmCEdOtSsv9jekfA8mQrVk1DsXqCawkHTIc=" target="_blank" rel="noopener">umów bezpłatne spotkanie</a>.
+            </p>
 
-              <!-- Strona główna: odkomentuj i ustaw właściwy adres, gdy strona będzie gotowa
-              <a class="button button-default" href="https://MilyPanOdFinansow.pl" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-home.svg" alt="Ikona strony głównej">Strona główna</a>
-              -->
-
-              <!-- Umów spotkanie (Proton Calendar) -->
-              <a class="button button-default" href="https://calendar.proton.me/u/0/bookings#4IOkkPKWQmCEdOtSsv9jekfA8mQrVk1DsXqCawkHTIc=" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-calendar.svg" alt="Ikona kalendarza">Umów spotkanie</a>
-
-              <!-- Proton — link polecający (pr.tn) -->
-              <a class="button button-default" href="https://pr.tn/ref/YJGSZ6SY" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/proton-logomark-purple-transparent.svg" alt="Ikona Proton">#LepszyInternet</a>
+            <!-- ============================================================
+                 SEKCJA 2 — SoMe
+                 ============================================================ -->
+            <h2 class="section-title">SoMe</h2>
+            <nav class="button-stack" aria-label="SoMe">
 
               <!-- Bluesky -->
               <a class="button button-bluesky" href="https://bsky.app/profile/milypanodfinansow.bsky.social" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
 
               <!-- Facebook -->
-              <a class="button button-faceb" href="https://www.facebook.com/MilyPanOdFinansow" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/facebook.svg" alt="Facebook Logo">Facebook</a>
+              <a class="button button-faceb" href="https://www.facebook.com/MIlyPanOdFinansow" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/facebook.svg" alt="Facebook Logo">Facebook</a>
 
               <!-- Instagram -->
               <a class="button button-instagram" href="https://www.instagram.com/milypanodfinansow" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
@@ -100,15 +109,110 @@
               <!-- Mastodon -->
               <a class="button button-mastodon" href="https://mas.to/@MilyPanOdFinansow" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a>
 
-              <!-- Reddit -->
-              <a class="button button-reddit" href="https://www.reddit.com/user/MissionBrain4699" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/reddit.svg" alt="Reddit Logo">Reddit</a>
+            </nav>
 
-              <!-- OPCJONALNIE: e-mail. Aby włączyć, usuń znaczniki komentarza z początku
-                   i końca tego bloku, a następnie wpisz swój adres w atrybucie href.
-              <a class="button button-default" href="mailto:twoj@email.pl" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Ikona e-mail">Napisz do mnie</a>
+            <!-- ============================================================
+                 SEKCJA 3 — PRODUKTY
+                 UWAGA: dwa przyciski (kredyty mieszkaniowe, ubezpieczenia życia
+                 i zdrowia) prowadzą obecnie na TĘ SAMĄ stronę — docelowo podmień
+                 na adresy dedykowanych stron siostrzanych, gdy powstaną.
+                 ============================================================ -->
+            <h2 class="section-title">Produkty</h2>
+            <nav class="button-stack" aria-label="Produkty">
+
+              <!-- Kredyty mieszkaniowe (docelowo: osobna strona siostrzana) -->
+              <a class="button button-default" href="https://bezobaw.github.io/MilyPanOdFinansow" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Kredyty mieszkaniowe</a>
+
+              <!-- Ubezpieczenia życia i zdrowia (docelowo: osobna strona siostrzana) -->
+              <a class="button button-default" href="https://bezobaw.github.io/MilyPanOdFinansow" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenia życia i zdrowia</a>
+
+              <!-- Prywatna opieka zdrowotna w Polsce -->
+              <a class="button button-default" href="https://bezobaw.github.io/MedycynaBezKolejek" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Prywatna opieka zdrowotna w Polsce</a>
+
+              <!-- Prywatna opieka zdrowotna za granicą -->
+              <a class="button button-default" href="https://bezobaw.github.io/MedycynaBezGranic" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Prywatna opieka zdrowotna za granicą</a>
+
+              <!-- Finansowanie biznesu & Benefity pracownicze — BRAK LINKA: uzupełnij href -->
+              <a class="button button-default" href="#"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Finansowanie biznesu &amp; Benefity pracownicze</a>
+
+              <!-- Pewna emerytura — BRAK LINKA: uzupełnij href -->
+              <a class="button button-default" href="#"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Pewna emerytura</a>
+
+            </nav>
+
+            <!-- ============================================================
+                 SEKCJA 4 — BEZPIECZNIE PORÓWNAJ I KUP ONLINE
+                 ============================================================ -->
+            <h2 class="section-title">Bezpiecznie porównaj i kup online</h2>
+            <nav class="button-stack" aria-label="Porównaj i kup online">
+
+              <!-- Ubezpieczenia turystyczne -->
+              <a class="button button-default" href="https://linktr.ee/PolisaNaPodroz" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenia turystyczne</a>
+
+              <!-- Ubezpieczenia NNW szkolne -->
+              <a class="button button-default" href="https://linktr.ee/eduNNW" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenia NNW szkolne</a>
+
+              <!-- Ubezpieczenia życia, zdrowia i NNW -->
+              <a class="button button-default" href="https://linktr.ee/PolisaNaCodzien" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenia życia, zdrowia i NNW</a>
+
+              <!-- Ubezpieczenia pojazdów -->
+              <a class="button button-default" href="https://linktr.ee/AutoMotoMore" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenia pojazdów</a>
+
+              <!-- Ubezpieczenia domów i mieszkań -->
+              <a class="button button-default" href="https://linktr.ee/4Sciany" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenia domów i mieszkań</a>
+
+              <!-- Ubezpieczenie od utraty dochodu -->
+              <a class="button button-default" href="https://utratadochodu.leadenhall.com/info?employeeCode=tiXmzWY31z" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenie od utraty dochodu</a>
+
+              <!-- Ubezpieczenie ochrony prawnej -->
+              <a class="button button-default" href="https://sprzedaz.wiener.pl/ochronaiasysta/r/OPA120926" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">Ubezpieczenie ochrony prawnej</a>
+
+            </nav>
+
+            <!-- ============================================================
+                 SEKCJA 5 — KONTAKT
+                 UWAGA: WhatsApp i WhatsApp Channel nie mają jeszcze adresów —
+                 uzupełnij href (https://wa.me/48XXXXXXXXX lub link kanału),
+                 a przycisk „Adres @" czeka na decyzję, co ma wskazywać.
+                 ============================================================ -->
+            <h2 class="section-title">Kontakt</h2>
+            <nav class="button-stack" aria-label="Kontakt">
+
+              <!-- Kalendarz (Proton) -->
+              <a class="button button-default" href="https://calendar.proton.me/u/0/bookings#4IOkkPKWQmCEdOtSsv9jekfA8mQrVk1DsXqCawkHTIc=" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-calendar.svg" alt="Ikona kalendarza">Umów spotkanie</a>
+
+              <!-- WhatsApp — BRAK LINKA: uzupełnij href (np. https://wa.me/48XXXXXXXXX) -->
+              <a class="button button-default" href="#"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">WhatsApp</a>
+
+              <!-- WhatsApp Channel — BRAK LINKA: uzupełnij href (link kanału) -->
+              <a class="button button-default" href="#"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">WhatsApp Channel</a>
+
+              <!-- Adres @ — doprecyzuj: e-mail? nick? Uzupełnij href.
+              <a class="button button-default" href="#"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Ikona e-mail">Adres @</a>
               -->
 
             </nav>
+
+            <!-- ============================================================
+                 SEKCJA 6 — POLECAM
+                 ============================================================ -->
+            <h2 class="section-title">Polecam</h2>
+            <nav class="button-stack" aria-label="Polecam">
+
+              <!-- Proton — link polecający -->
+              <a class="button button-default" href="https://pr.tn/ref/YJGSZ6SY" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/proton-logomark-purple-transparent.svg" alt="Ikona Proton">Zarabiaj budując #LepszyInternet</a>
+
+              <!-- Proton Drive — materiał "Liczby, które dają do myślenia" -->
+              <a class="button button-default" href="https://drive.proton.me/urls/4HSQ6JB63M#xhAnDZtpjduY" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">#Liczby, które dają do myślenia</a>
+
+              <!-- Medicover Sport (karnet sportowy) -->
+              <a class="button button-default" href="https://milypanodfinansow.benefity.swrn.org.pl/karnet-sportowy.html" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">#Medicover Sport</a>
+
+              <!-- NaWypadekGdy.pl -->
+              <a class="button button-default" href="https://NaWypadekGdy.pl" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-web.svg" alt="">#NaWypadekGdy</a>
+
+            </nav>
+
           </main>
 
           <!-- STOPKA: polityka prywatności — jedyny link do polityki na tej stronie -->
