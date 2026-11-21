@@ -1,88 +1,84 @@
 <!DOCTYPE html>
 
 <!--
-  To change the theme, change the class on the html tag below to one of:
-  - theme-auto: Automatically switches based on user's system preferences
-  - theme-light: Forces light theme
-  - theme-dark: Forces dark theme
+  Motyw strony - zmień klasę poniżej na jedną z:
+  - theme-auto: automatycznie dopasowuje się do ustawień systemu (zalecane)
+  - theme-light: wymusza jasny
+  - theme-dark: wymusza ciemny
 -->
 
-<html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
+<html class="theme-auto" lang="pl">
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-    <title>Privacy Policy | LittleLink</title>
-    <link rel="icon" type="image/png" href="images/avatar.png"> <!-- Update this with your own favicon -->
+    <title>Polityka prywatności — Michał, Miły Pan od Finansów</title>
+    <link rel="icon" type="image/png" href="avatar.png">
 
+    <meta name="description" content="Polityka prywatności strony Michała, Miłego Pana od Finansów. Strona nie zbiera danych osobowych automatycznie i nie używa plików cookie.">
 
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
-    <meta name="description" content="Privacy policy and data collection information for LittleLink">
-    <meta name="robots" content="noindex"> <!-- Since this is a utility page -->
+    <!-- CANONICAL: adres TEJ podstrony ( UWAGA: nie kopiuj canonicala ze strony głównej ) -->
+    <link rel="canonical" href="https://bezobaw.github.io/MilyPanOdFinansow/privacy.html">
 
-    <!-- Browser UI Color - Matches the default light/dark theme backgrounds -->
+    <meta name="author" content="Michał">
+    <meta name="robots" content="noindex, follow">
+
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
 
-    <!-- Stylesheets -->
+    <!-- Arkusze stylów (wspólne z resztą repo — nie zmieniaj) -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
 
+    <style>
+      /* Delikatne stylowanie treści polityki w duchu LittleLink */
+      .privacy h1 { margin-bottom: 1rem; }
+      .privacy h2 { margin: 1.5rem 0 .5rem; font-size: 1.1rem; }
+      .privacy p, .privacy li { line-height: 1.6; margin-bottom: .75rem; text-align: left; }
+      .privacy ul { margin: 0 0 .75rem 1.25rem; text-align: left; }
+      .privacy a { word-break: break-all; }
+      .privacy small { opacity: .7; }
+    </style>
   </head>
 
-  <body>
-    <main class="container-left">
-      <div class="column">
-        <nav>
-          <a href="index.html" aria-label="Back to homepage">← Back to main page</a>
-        </nav>
+<body>
 
-        <h1>Privacy Overview</h1>
+    <div class="container">
+        <div class="column">
+          <main class="privacy">
 
-        <section aria-labelledby="analytics-heading">
-          <h2 id="analytics-heading">Analytics</h2>
-          <p>The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.</p>
+            <h1>Polityka prywatności</h1>
+            <p><small>Dotyczy strony: bezobaw.github.io/MilyPanOdFinansow · Stan na dzień pierwszej publikacji.</small></p>
 
-          <h3>Example LLC</h3>
-          <ul role="list">
-            <li>Personal Data: various types of Data as specified in the privacy policy of the service</li>
-            <li><a href="https://example.com/privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
-          </ul>
-        </section>
+            <h2>Kto jest administratorem danych</h2>
+            <p>Administratorem danych osobowych przekazywanych za pośrednictwem tej strony jest <strong>Michał — dystrybutor ubezpieczeń</strong>, działający pod marką <strong>Michał, Miły Pan od Finansów</strong>, nr w Rejestrze Agentów Ubezpieczeniowych: <strong>11454669/P</strong> (weryfikacja: <a href="https://rpu.knf.gov.pl" target="_blank" rel="noopener">rpu.knf.gov.pl</a>). Kontakt w sprawach danych osobowych: <a href="mailto:RODO@milypanodfinansow.pl">RODO@milypanodfinansow.pl</a>.</p>
 
-        <section aria-labelledby="external-content-heading">
-          <h2 id="external-content-heading">External Content</h2>
-          <p>This type of service allows you to view content hosted on external platforms directly from the pages of this website and interact with them.</p>
-          <p>This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.</p>
+            <h2>Jakie dane i w jakim celu</h2>
+            <p>Strona nie stosuje plików cookie ani narzędzi analitycznych i nie zbiera danych automatycznie. Dane osobowe (imię, adres e-mail, numer telefonu, treść korespondencji) trafiają do mnie wyłącznie wtedy, gdy przekażesz je dobrowolnie — pisząc wiadomość e-mail, rezerwując spotkanie przez kalendarz online albo kontaktując się ze mną w komunikatorze. Dane te przetwarzam wyłącznie w celu obsługi zapytania i przygotowania oferty — podstawa prawna: art. 6 ust. 1 lit. b RODO (działania na Twoje żądanie przed zawarciem umowy). Po zakończeniu kontaktu dane przechowuję przez okres wymagany przepisami prawa lub do czasu wniesienia sprzeciwu.</p>
 
-          <h3>Example LLC</h3>
-          <ul role="list">
-            <li>Personal Data: Usage Data; various types of Data as specified in the privacy policy of the service</li>
-            <li><a href="https://example.com/privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
-          </ul>
-        </section>
+            <h2>Serwisy zewnętrzne</h2>
+            <p>Strona jest hostowana na GitHub Pages, a linki prowadzą do serwisów zewnętrznych (m.in. Linktree, Facebook, Instagram, Bluesky, Mastodon, Reddit, WhatsApp, Proton). Po opuszczeniu tej strony administratorem Twoich danych staje się operator danego serwisu — jego polityka prywatności jest dostępna na jego stronie. Nie odpowiadam za przetwarzanie danych w tych serwisach.</p>
 
-        <section aria-labelledby="hosting-heading">
-          <h2 id="hosting-heading">Hosting and Infrastructure</h2>
-          <p>This type of service has the purpose of hosting Data and files that enable this website to exist.</p>
-          <p>Some services among those listed below, if any, may work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.</p>
+            <h2>Dane w toku sprzedaży produktu</h2>
+            <p>Czynności w zakresie kredytów hipotecznych i kredytów konsumenckich wykonywane są w ramach zatrudnienia u podmiotów wpisanych do rejestru pośredników kredytowych prowadzonego przez KNF. W toku sprzedaży produktu (polisa, kredyt, leasing, faktoring) administratorem danych osobowych staje się odpowiedni podmiot (ubezpieczyciel, kredytodawca, leasingodawca), a dane przetwarzane są zgodnie z jego polityką prywatności.</p>
 
-          <h3>Example LLC</h3>
-          <ul role="list">
-            <li>Personal Data: various types of Data as specified in the privacy policy of the service</li>
-            <li><a href="https://example.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
-          </ul>
-        </section>
+            <h2>Twoje prawa</h2>
+            <p>Przysługuje Ci prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia, sprzeciwu oraz wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych. Podanie danych jest dobrowolne, lecz niezbędne do udzielenia odpowiedzi na zapytanie.</p>
 
-        <footer>
-          <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink.</a></p>
-        </footer>
-      </div>
-    </main>
+            <h2>Zastrzeżenie</h2>
+            <p>Treści publikowane na stronie mają charakter informacyjny i nie stanowią porady inwestycyjnej ani oferty w rozumieniu Kodeksu cywilnego.</p>
 
-  </body>
+          </main>
+
+          <footer>
+            <a href="index.html">← Powrót do strony głównej</a>
+          </footer>
+
+    </div>
+  </div>
+
+</body>
 
 </html>
